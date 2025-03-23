@@ -39,7 +39,7 @@ $total = $_SESSION['tot'];
 <body>
     <header class="header">
         <div class="container header-content">
-            <a href="index.php" class="logo">ONLINE ART GALLERY</a>
+            <a href="index.php" class="logo">Canvas Craft</a>
             <div class="user-welcome">
                 <span>Welcome, <?= $_SESSION['sess_user']; ?>!</span>
                 <a href="login.php">Logout</a>
